@@ -34,5 +34,5 @@
 
 	123
 
-	some change  de
+	some change
 ?>
