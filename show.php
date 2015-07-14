@@ -11,7 +11,12 @@
 	}
 	echo $openid;
 	
-	
+	$sql = "SELECT * FROM `user` WHERE openid = '$openid'";
+	$result = mysql_query($sql);
+	$data = array();
+	if(is_resource($result)){
+		$data = mysql_fetch_array($result);
+	}
 
 	//include("model/index.html");
 	require("adm/close_db.php");
