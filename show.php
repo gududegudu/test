@@ -13,6 +13,6 @@
 	
 	
 
-	include("model/index.html");
+	//include("model/index.html");
 	require("adm/close_db.php");
 ?>
