@@ -31,4 +31,7 @@
 	}
 
 	$Access->get('http://wx.cunite.cn/dongrun/100/info.php',$state);
+
+	123123123
+
 ?>
