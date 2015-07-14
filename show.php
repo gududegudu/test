@@ -9,7 +9,7 @@
 	if(empty($openid)){
 		exit(0);
 	}
-	//echo $openid;
+	echo $openid;
 	
 	
 
